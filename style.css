@@ -3,7 +3,7 @@
 body {
   background-color: hsl(218, 23%, 16%);
   font-size: 28px;
-  padding: 30px 100px;
+  padding: 30px 80px;
   font-family: "manrope";
 }
 
@@ -12,7 +12,6 @@ body {
   background-color: hsl(217, 19%, 24%);
   border-radius: 10px;
   padding: 40px;
-  width: 100%;
 }
 
 .advice {
