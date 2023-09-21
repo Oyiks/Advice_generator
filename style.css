@@ -84,11 +84,11 @@ a {
   align-items: center;
   justify-content: center;
 }
-
+/* 
 picture > img {
   margin: auto;
   width: 100%;
-}
+} */
 
 @media screen and (max-width: 480px) {
 
