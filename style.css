@@ -1,0 +1,157 @@
+
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-size: 28px;
+  padding: 40px 140px;
+  font-family: "manrope";
+}
+
+.container {
+  margin: 5em 15em;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.advice {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+}
+
+.adviceSlip {
+  color: white;
+  text-align: center;
+  
+}
+
+.anotherAdvice {
+  color: white;
+  text-align: center;
+}
+
+img {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+a {
+ text-decoration: none;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  /* display: inline-block; */
+  /* text-align: center; */
+  position: relative; 
+  top: 70px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.dot:hover {
+  background-color: hsl(193, 38%, 86%);
+}
+
+.dice {
+  position: relative; 
+  top: 70px; 
+  left: 23px;
+   z-index: 1; 
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.attribution {
+  font-size: 24px;
+  color: white;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  body {
+    background-color: hsl(218, 23%, 16%);
+    font-size: 18px;
+    padding: 5px 6px;
+    font-family: "manrope";
+  }
+
+  .container {
+    margin: 6em .5em;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  /* img {
+    width: 80%;
+  } */
+  
+  .advice {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .attribution {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .dot {
+    height: 50px;
+    width: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    /* display: inline-block; */
+    /* text-align: center; */
+    position: relative; 
+    top: 30px;
+    right: 15px;
+    cursor: pointer;
+  }
+  
+  .dot:hover {
+    background-color: hsl(193, 38%, 86%);
+  }
+  
+  .dice {
+    position: relative; 
+    top: 30px; 
+    left: 22.5px;
+    z-index: 1; 
+    cursor: pointer;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  picture > img {
+    margin: auto;
+    width: 100%;
+  }
+}
